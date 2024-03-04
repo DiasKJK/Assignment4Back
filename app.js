@@ -44,7 +44,7 @@ require('./server/models/User')
 
 
 app.listen(port,()=>{
-    console.log(`Server running on port ${port}`);
+    console.log(`mongodb+srv://daskm2003:daskm2003@cluster0.i7k18cb.mongodb.net/`);
     mongoose.connect(`${process.env.MONGOURI}`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
